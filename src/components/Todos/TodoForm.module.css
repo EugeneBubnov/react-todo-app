@@ -1,0 +1,40 @@
+.header {
+  margin: 2rem auto;
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.searchField {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  border: none;
+}
+
+.button {
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgba(120, 107, 215, 0.852);
+  color: rgb(255, 255, 255);
+  border-color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  animation: changeColor 1s linear;
+  background-color: rgb(92, 232, 200);
+}
+
+@keyframes changeColor {
+  from {
+    background-color: rgba(120, 107, 215, 0.852);
+  }
+  to {
+    background-color: rgb(92, 232, 200);
+  }
+}

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /*background: linear-gradient(90deg, rgb(43, 9, 232), rgb(210, 78, 237) 83%);*/
+  background: linear-gradient(90deg, rgb(92, 232, 200), rgb(105, 91, 215) 83%);
+}

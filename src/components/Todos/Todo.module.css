@@ -1,0 +1,62 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  width: 60%;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word; /* Переносить слова, если они не помещаются */
+  word-break: break-word; /* Разрешить разрывы слов (для старых браузеров) */
+  white-space: normal; /* Разрешить переносы строк */
+}
+
+.todoIcon {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  color: rgba(120, 107, 215, 0.852);
+}
+
+.completedTodo {
+  background-color: unset;
+  border-color: lightgrey;
+  color: lightgrey;
+  border: 3px solid lightgrey;
+  text-decoration: 2px line-through;
+}
+
+.todo.completedTodo .todoIcon,
+.todo.completedTodo .checkIcon,
+.todo.completedTodo .deleteIcon {
+  color: lightgrey;
+}
+
+.checkIcon,
+.deleteIcon {
+  cursor: pointer;
+  color: lightgrey;
+  padding: 0 7px;
+  font-size: 1.8rem;
+  transition: transform 0.3s;
+}
+
+.checkIcon:hover,
+.deleteIcon:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.checkIcon:hover {
+  color: green;
+}
+
+.deleteIcon:hover {
+  color: red;
+}
