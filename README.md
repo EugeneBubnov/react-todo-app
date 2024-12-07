@@ -1,5 +1,7 @@
 # React project for the React Course
 
+## [Get started!](https://eugenebubnov.github.io/react-todo-app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
